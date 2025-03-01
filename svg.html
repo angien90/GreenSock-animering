@@ -1,5 +1,14 @@
-<link href="main.css" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation GSAP</title>
 
+    <link href="main.css" rel="stylesheet" />
+</head>
+
+<body>
 <svg width="1143" height="731" viewBox="0 0 1143 731" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g filter="url(#filter0_i_19_3)">
     <rect x="340" y="268" width="463" height="463" rx="231.5" fill="url(#pattern0_19_3)"/>
@@ -32,14 +41,14 @@
     </defs>
     </svg>
           
-
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
 
     <script>
-        gsap.fromTo(
-  "#image0_19_3",
-  { scale: 0.9, transformOrigin: "70% 20%" }, 
-  { duration: 5, scale: 3.8, ease: "expoScale(0.5, 3, power2.inOut)" }
-);
+        gsap.fromTo("#image0_19_3",
+                    { scale: 0.9, transformOrigin: "70% 20%" }, 
+                    { duration: 5, scale: 3.8, ease: "expoScale(0.5, 3, power2.inOut)" }
+                    );
     </script>
-    
+
+</body>
+</html>
