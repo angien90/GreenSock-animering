@@ -12,3 +12,7 @@ Inom ramen för kursen 'Grafiska verktyg' genomförde vi en individuell uppgift 
 För att skapa sidans innehåll använde jag Figma och kopierade filen i SVG-format. Sedan skapade jag en html-fil och klistrade in svg:n där samt utförde en animering på min AI-bild.
 
 [📹 Se animeringen](Animering.mp4)
+
+
+## Betyg 
+![image](https://github.com/user-attachments/assets/04770fbc-54d7-46f1-b89b-1390bec6ff30)
